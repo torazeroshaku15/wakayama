@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>南紀白浜 旅行しおり 10/17-18（更新）</title>
+<style>
+  :root{
+    --accent:#0b7fa6;
+    --muted:#6b7280;
+    --card:#ffffff;
+    --bg:#f4f7fb;
+    --shadow: 0 6px 18px rgba(11,127,166,0.12);
+    --radius:12px;
+    font-family: "Hiragino Kaku Gothic ProN","Noto Sans JP",system-ui,Arial,sans-serif;
+  }
+  body{
+    margin:0;
+    background:linear-gradient(180deg,#eef7fb 0%,var(--bg) 100%);
+    color:#0f1724;
+    -webkit-font-smoothing:antialiased;
+    line-height:1.6;
+  }
+  .container{
+    max-width:980px;
+    margin:28px auto;
+    padding:28px;
+  }
+  header{
+    display:flex;
+    gap:20px;
+    align-items:center;
+    margin-bottom:18px;
+  }
+  .logo{
+    width:84px;
+    height:84px;
+    border-radius:14px;
+    background:linear-gradient(135deg,var(--accent),#2fb6d6);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-weight:700;
+    box-shadow:var(--shadow);
+    flex-shrink:0;
+  }
+  h1{
+    margin:0;
+    font-size:20px;
+  }
+  .meta{
+    color:var(--muted);
+    font-size:14px;
+    margin-top:6px;
+  }
+
+  .grid{
+    display:grid;
+    grid-template-columns:1fr 320px;
+    gap:18px;
+    align-items:start;
+  }
+
+  .card{
+    background:var(--card);
+    border-radius:var(--radius);
+    padding:18px;
+    box-shadow:var(--shadow);
+  }
+
+  .participants{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-top:10px;
+  }
+  .pill{
+    background:#f1fbff;
+    color:var(--accent);
+    padding:6px 10px;
+    border-radius:999px;
+    font-weight:600;
+    font-size:13px;
+  }
+
+  table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:10px;
+  }
+  th,td{
+    text-align:left;
+    padding:10px 8px;
+    border-bottom:1px dashed #e6eef3;
+    font-size:14px;
+  }
+  th{
+    background:#fbfeff;
+    color:var(--accent);
+    font-weight:700;
+    font-size:13px;
+  }
+
+  .section-title{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:8px;
+  }
+  .dot{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background:var(--accent);
+  }
+
+  .notes{
+    color:var(--muted);
+    font-size:14px;
+    margin-top:8px;
+  }
+
+  .wifi{
+    background:linear-gradient(90deg,#fff7e6,#fff);
+    border-radius:10px;
+    padding:10px;
+    margin-top:8px;
+    font-weight:700;
+    color:#8a5a00;
+  }
+
+  @media (max-width:980px){
+    .grid{grid-template-columns:1fr; padding-bottom:20px;}
+    .logo{width:64px;height:64px;}
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">白浜</div>
+      <div>
+        <h1>南紀白浜 旅行しおり（更新）</h1>
+        <div class="meta">日程 10月17日〜18日 ・ 参加者：じゅりー おち しゅうえい まるお さかな むぎほ たんめん ころも STAR ひろぴー</div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <!-- main column -->
+      <div>
+        <section class="card">
+          <div class="section-title"><div class="dot"></div><strong>参加者</strong></div>
+          <div class="participants">
+            <div class="pill">じゅりー</div>
+            <div class="pill">おち</div>
+            <div class="pill">しゅうえい</div>
+            <div class="pill">まるお</div>
+            <div class="pill">さかな</div>
+            <div class="pill">むぎほ</div>
+            <div class="pill">たんめん</div>
+            <div class="pill">ころも</div>
+            <div class="pill">STAR</div>
+            <div class="pill">ひろぴー</div>
+          </div>
+
+          <hr style="border:none;margin:14px 0;border-top:1px solid #eef6fa;" />
+
+          <div class="section-title"><div class="dot"></div><strong>17日 スケジュール</strong></div>
+          <table>
+            <thead>
+              <tr>
+                <th style="width:90px">時間</th>
+                <th style="width:110px">グループ</th>
+                <th>内容</th>
+                <th style="width:160px">場所</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- 関東組 -->
+              <tr><td>10:00</td><td>関東組</td><td>羽田第一ターミナル 集合</td><td>羽田空港</td></tr>
+              <tr><td>11:30</td><td>関東組</td><td>離陸</td><td>機内</td></tr>
+              <tr><td>12:40</td><td>関東組</td><td>南紀白浜 到着</td><td>南紀白浜空港</td></tr>
+              <tr><td>13:00</td><td>関東組</td><td>レンタカー借りる</td><td>空港レンタカーカウンター</td></tr>
+              <tr><td>14:50</td><td>関東組</td><td>ミスオーシャンダイビング</td><td>ダイビング施設</td></tr>
+              <tr><td>17:30</td><td>関東組</td><td>ダイビング終了</td><td>同上</td></tr>
+              <tr><td>18:15</td><td>関東組</td><td>コテージ合流</td><td>宿泊先</td></tr>
+
+              <!-- 関西組 -->
+              <tr><td>16:00</td><td>関西組</td><td>コテージ チェックイン</td><td>宿泊先</td></tr>
+              <tr><td>17:00</td><td>関西組</td><td>買い出し・BBQ準備</td><td>近隣スーパー／コテージ</td></tr>
+
+              <!-- 全体 -->
+              <tr><td>18:30</td><td>全体</td><td>BBQ開始</td><td>コテージ</td></tr>
+              <tr><td>以降</td><td>全体</td><td>自由時間</td><td>コテージ周辺</td></tr>
+            </tbody>
+          </table>
+
+          <hr style="border:none;margin:14px 0;border-top:1px solid #eef6fa;" />
+
+          <div class="section-title"><div class="dot"></div><strong>18日 スケジュール</strong></div>
+          <table>
+            <thead>
+              <tr><th style="width:110px">時間</th><th>内容</th><th style="width:260px">場所</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>10:00</td><td>チェックアウト</td><td>コテージ</td></tr>
+              <tr><td>10:30</td><td>行き先検討・移動</td><td>体育館 / アドベンチャーワールド / とれとれ市場</td></tr>
+              <tr><td>17:00</td><td>解散</td><td>現地</td></tr>
+            </tbody>
+          </table>
+
+          <hr style="border:none;margin:14px 0;border-top:1px solid #eef6fa;" />
+
+          <div class="section-title"><div class="dot"></div><strong>関東組と関西組の動き（要点）</strong></div>
+          <ul style="margin:8px 0 0 18px;color:var(--muted);">
+            <li><strong>関東組</strong>：羽田集合→フライト→白浜到着→ダイビング→コテージ合流</li>
+            <li><strong>関西組</strong>：先にコテージチェックイン（16:00）→買い出し・BBQ準備（17:00）→関東組と合流してBBQ</li>
+          </ul>
+        </section>
+
+        <section class="card" style="margin-top:14px;">
+          <div class="section-title"><div class="dot"></div><strong>持ち物チェックリスト</strong></div>
+          <div class="notes">
+            <ul style="margin:8px 0 0 18px;">
+              <li>水着 — 温泉やダイビングがある場合に必要</li>
+              <li>運動着・シューズ — 体育館利用の可能性あり</li>
+              <li>着替え・タオル・洗面用具</li>
+              <li>防寒用の羽織り（夜は冷える可能性あり）</li>
+              <li>常備薬・保険証のコピー・充電器</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="card" style="margin-top:14px;">
+          <div class="section-title"><div class="dot"></div><strong>注意事項と連絡</strong></div>
+          <div class="notes">
+            <ul style="margin:8px 0 0 18px;">
+              <li>集合時間は余裕をもって行動してください。</li>
+              <li>ダイビング参加者は事前に体調確認をお願いします。</li>
+              <li>車の乗り合わせや駐車場所は当日調整。</li>
+              <li>緊急連絡はグループチャットで共有してください。</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <!-- side column -->
+      <aside>
+        <div class="card">
+          <div class="section-title"><div class="dot"></div><strong>宿泊先情報</strong></div>
+          <div style="font-size:14px;color:var(--muted);">
+            <p style="margin:6px 0 0 0">宿泊マニュアル（参照）</p>
+            <p style="margin:6px 0 0 0"><a href="https://and-connect.net/checkin-manual/Shirahama/Viewpoint.pdf" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;">宿泊先チェックインマニュアル</a></p>
+
+            <div class="wifi">
+              <div><strong>Room WiFi</strong></div>
+              <div style="margin-top:6px">WiFi ID: <strong>aterm-df00a3-a</strong></div>
+              <div>Password: <strong>5d81a6db5b189</strong></div>
+            </div>
+
+            <div style="margin-top:12px">
+              <strong>チェックイン／チェックアウト</strong>
+              <div style="color:var(--muted);margin-top:6px">関西組 16:00 チェックイン予定 ・ 18日 10:00 チェックアウト</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+          <div class="section-title"><div class="dot"></div><strong>当日の役割案（更新）</strong></div>
+          <div style="color:var(--muted);font-size:14px;margin-top:6px">
+            <ul style="margin:8px 0 0 18px;">
+              <li>買い出しリーダー: むぎほ</li>
+              <li>食材管理: ころも</li>
+              <li>緊急対応: しゅうえい</li>
+            </ul>
+            <div style="margin-top:8px;color:#0b7fa6;font-weight:700"></div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+          <div class="section-title"><div class="dot"></div><strong>候補スポット</strong></div>
+          <div style="color:var(--muted);font-size:14px;margin-top:6px">
+            <ul style="margin:8px 0 0 18px;">
+              <li>体育館 — 屋内で運動やゲームが可能</li>
+              <li>アドベンチャーワールド — 動物園・遊園地</li>
+              <li>とれとれ市場 — 海鮮やお土産購入に最適</li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</body>
+</html>
